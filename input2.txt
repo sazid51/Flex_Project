@@ -1,0 +1,22 @@
+int my_func(int a,int b)
+{
+    a++;
+    b+=3
+    return a+b;
+}
+
+int main()
+{
+    int a=5,b=10;
+    if(a!=b){
+        printf("Hello World");
+    }
+
+    int sum=my_func(a,b);
+    printf("%d",sum);
+
+    while(a<=b){
+        printf(1);
+        a++;
+    }
+}
